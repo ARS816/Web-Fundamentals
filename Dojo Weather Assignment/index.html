@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav">
+            <h1>DojoWeather</h1>
+            <ul onclick=cityWeather()>
+                <li><a href="#">Burbank</a></li>
+                <li><a href="#">Chicago</a></li>
+                <li><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="top">
+            <h2>San Jose</h2>
+            <form>
+                <label>show temperature in</label>
+                <select onchange="convertTemp(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </form>
+        </div>
+        <div class="main">
+            <div class="column">
+                <h3>Today</h3>
+                <img src="assets 2/some_rain.png" alt="rain">
+                <p>some rain</p>
+                <div class="temp">
+                    <p><span class="high">24</span>°</p>
+                    <p><span class="low" >18</span>°</p>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Tomorrow</h3>
+                <img src="assets 2/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="temp">
+                    <p> <span class="high">27</span>°</p>
+                    <p><span class="low" >19</span>°</p>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Friday</h3>
+                <img src="assets 2/some_clouds.png" alt="clouds">
+                <p>some clouds</p>
+                <div class="temp">
+                    <p> <span class="high">21</span>°</p>
+                    <p><span class="low" >16</span>°</p>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Saturday</h3>
+                <img src="assets 2/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="temp">
+                    <p> <span class="high">26</span>°</p>
+                    <p><span class="low" >21</span>°</p>
+                </div>
+            </div>
+        </div>
+        <div class="message" id="cookie">
+            <div class="col-">
+                <img src="assets 2/cookie.png" alt="cookie">
+            </div>
+            <div class="col-2">
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
+                    features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <div class="btn">
+                <button onclick="removePolicy('#cookie')">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
