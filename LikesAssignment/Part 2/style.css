@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    margin: 0px auto;
+    width: 60%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    text-align: center;
+    margin: 0px auto;
+    width: 60%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+h2{
+    margin: 20px;
+    font-size: 35px;
+}
+h3{
+    font-size: 30px;
+}
+button{
+    height: 30px;
+    width: 50px;
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+}
+.like-box a {
+    text-decoration: none;
+    color: black;
+}
+.row{
+    height: 150px;
+    width: 0px auto;
+    border: 5px solid black;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.right-bar p{
+    text-align: left;
+    padding-top: 15px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.left-bar{
+    height: 300px;
+    width: 0px auto;
+    border: 5px solid black;
+    padding: 20px;
+    margin-right: 20px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.main-content{
+    margin: 0px auto;
+    display: flex;
+}
+.col-1{
+    width: 40%;
+}
+.col-2{
+    width: 60%;
+}
+.left-bar p{
+    padding: 25px;
+    font-size: 20px;
+}
+.left-bar img{
+    height: 100px;
+    width: auto;
+}
